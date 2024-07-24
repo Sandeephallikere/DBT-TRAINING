@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stage_order
+    description: one unique order per row
+    columns:
+      - name: orderid
+        description: the primary key for the stage_order
+      - name: shipmode
+        description: '{{doc("shipmode")}}'
